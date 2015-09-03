@@ -1,0 +1,11 @@
+<?php
+	class Visidanmisi extends CI_Controller{
+		public function __construct(){
+			parent::__construct();
+		}
+		
+		public function index(){
+			$this->load->view('visidanmisi_v');
+		}
+	}
+?>
